@@ -1,0 +1,17 @@
+Obiectivul principal îndeplinit de sistemul E-Prezenta este realizarea corectǎ a foilor de prezenţǎ de cǎtre cadrele didactice ale unei facultǎţi.
+Pentru a fi utilizat, sistemul cere introducerea unui username și a unei parole. Sistemul pune la dispoziție un modul de înregistrare/logare pentru o mai bună gestiune a utilizatorilor ce folosesc aplicația. Acesta acceptă două tipuri de utilizatori: profesori din departamentul unei facultǎţi, respectiv directorii de departament ai facultății.
+Pentru ca un profesor să se înregistreze în aplicație, directorul departamentului trebuie să introducă numele, prenumele, gradul didactic şi adresa e-mail ale profesorului înregistrat. Acesta trebuie să fie un membru activ în cadrul Universitǎții deoarece sistemul genereazǎ o parolă ce va fi trimisǎ pe email cadrului didactic ȋnregistrat ȋn aplicaţie. Pentru a se loga, fiecare cadru didactic, respectiv directorul de departament, trebuie sǎ introducǎ adresa de email şi parola primitǎ. Parola poate fi modificatǎ oricȃnd dupǎ prima logare.
+Pentru generarea unei foi de prezenţǎ, sistemul are nevoie de urmǎtoarele documente:
+-	fisa individuala de pontaj,
+-	calendarul academic,
+-	foaia de plata cu ora, opţional
+-	foaie de pontaj pentru fiecare proiect de cercetare, opţional.
+Aceste documente sunt ȋn format Ms Word sau Ms Excel şi vor fi ȋncǎrcate de sistem cu ajutorul utilizatorului. Dacǎ utilizatorul nu are foaia de pontaj realizatǎ pentru un proiect de cercetare, sistemul permite introducerea datelor ȋntr-un formular. Pentru fiecare proiect de cercetare, sistemul memoreazǎ perioada ȋn care fiecare profesor lucreazǎ ȋn proiect.
+Foile de prezenţǎ sunt generate ȋn fiecare lunǎ calendaristicǎ, dupǎ urmǎtoarele reguli:
+-	suma orelor din norma de bazǎ trebuie sǎ fie egal numǎrul orelor de bazǎ din structura calendarului academic ȋn luna respectivǎ,
+-	suma orelor de bazǎ, orelor plǎtite cu ora şi a orelor altor activitǎţi remunerate suplimentar nu trebuie sǎ depǎşeascǎ 11ore/zi sau 12ore/zi, dacǎ profesorul respectiv a prestat muncǎ ȋntr-un proiect de cercetare POCU sau POSDRU ȋn ziua respectivǎ.
+Foile de prezenţǎ sunt generate ȋn format Excel şi la cererea utilizatorului le afişeazǎ, respectiv le trimite prin email directorului de departament.
+Foile de prezenţǎ pot fi modificate de cǎtre utilizator prin intermediul sistemului iar acesta din urmǎ le va genera din nou. 
+La cererea utilizatorului, sistemul poate afişa o foaie de prezenţǎ curentǎ sau realizatǎ ȋntr-o lunǎ anterioarǎ.
+Directorul fiecǎrui departament poate sǎ cearǎ sistemului sǎ genereze foi de prezenţǎ ale oricǎrui membru al departamentului pe care ȋl conduce. Ȋn plus, poate sǎ cearǎ sistemului sǎ afişeze lista membrilor departamentului care nu si-au fǎcut foile de prezenţǎ. 
+Pentru gestiunea datelor persistente, sistemul foloseşte baze de date MySQL.
